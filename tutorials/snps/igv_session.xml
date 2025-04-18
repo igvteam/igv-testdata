@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Session genome="hg38" locus="chr1:9710252-9727054" version="8">
+    <Resources>
+        <Resource path="https://raw.githubusercontent.com/igvteam/igv-testdata/refs/heads/main/tutorials/snps/snp_calls.bed" type="bed"/>
+        <Resource path="https://raw.githubusercontent.com/igvteam/igv-testdata/refs/heads/main/tutorials/snps/NA12878.SLX.sample.bam" type="bam"/>
+    </Resources>
+</Session>
