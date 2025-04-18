@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Session genome="hg38" locus="chr21:26000000-26004000" version="8">
+    <Resources>
+        <Resource path="NA19240.bam"/>
+    </Resources>
+</Session>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Session genome="hg19" locus="chr22:36647117-36665577"  version="8">
+    <Resources>
+        <Resource path="apol1_snp131.bed"/>
+        <Resource path="ALL.apol1.sample.phase3_shapeit2_mvncall_integrated_v5a.20130502.genotypes.vcf"/>
+        <Resource path="integrated_call_samples_v3.20130502.ALL.panel"/>
+    </Resources>
+
+</Session>

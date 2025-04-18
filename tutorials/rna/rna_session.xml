@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Session genome="hg19" locus="chr12:98985403-98997778" version="8">
+    <Resources>
+        <Resource path="heart_slc25a3.bam"/>
+        <Resource path="liver_slc25a3.bam"/>
+    </Resources>
+</Session>

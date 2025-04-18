@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Session genome="hg38" locus="chr11:119094726-119094804" nextAutoscaleGroup="795" version="8">
+    <Resources>
+        <Resource path="/Users/jrobinso/igv-team Dropbox/Data/basemods/6mA/pacbio/HG002_chr11_119076212_119102218.bam" type="bam"/>
+    </Resources>
+    <Panel height="550" name="DataPanel" width="1215">
+        <Track attributeKey="HG002_chr11_119076212_119102218.bam Coverage" autoScale="true" clazz="org.broad.igv.sam.CoverageTrack" fontSize="10" id="/Users/jrobinso/igv-team Dropbox/Data/basemods/6mA/pacbio/HG002_chr11_119076212_119102218.bam_coverage" name="Coverage" snpThreshold="0.2" visible="true">
+            <DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="26.0" minimum="0.0" type="LINEAR"/>
+        </Track>
+        <Track attributeKey="HG002_chr11_119076212_119102218.bam Junctions" autoScale="false" clazz="org.broad.igv.sam.SpliceJunctionTrack" fontSize="10" groupByStrand="false" height="60" id="/Users/jrobinso/igv-team Dropbox/Data/basemods/6mA/pacbio/HG002_chr11_119076212_119102218.bam_junctions" maxdepth="50" name="HG002_chr11_119076212_119102218.bam Junctions" visible="false"/>
+        <Track attributeKey="HG002_chr11_119076212_119102218.bam" clazz="org.broad.igv.sam.AlignmentTrack" color="185,185,185" displayMode="EXPANDED" experimentType="THIRD_GEN" fontSize="10" id="/Users/jrobinso/igv-team Dropbox/Data/basemods/6mA/pacbio/HG002_chr11_119076212_119102218.bam" name="Alignments" visible="true">
+            <RenderOptions colorOption="BASE_MODIFICATION_2COLOR" duplicatesOption="FILTER" groupByOption="FIRST_OF_PAIR_STRAND"/>
+        </Track>
+    </Panel>
+    <Panel height="64" name="FeaturePanel" width="1215">
+        <Track attributeKey="Reference sequence" clazz="org.broad.igv.track.SequenceTrack" fontSize="10" id="Reference sequence" name="Reference sequence" sequenceTranslationStrandValue="+" shouldShowTranslation="false" visible="true"/>
+        <Track attributeKey="Refseq Curated" clazz="org.broad.igv.track.FeatureTrack" fontSize="10" groupByStrand="false" id="https://hgdownload.soe.ucsc.edu/goldenPath/hg38/database/ncbiRefSeqCurated.txt.gz" name="Refseq Curated" visible="true"/>
+    </Panel>
+    <PanelLayout dividerFractions="0.8888888888888888"/>
+    <HiddenAttributes>
+        <Attribute name="DATA FILE"/>
+        <Attribute name="DATA TYPE"/>
+        <Attribute name="NAME"/>
+    </HiddenAttributes>
+</Session>
